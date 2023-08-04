@@ -15,7 +15,7 @@ Exercise 2:
 */
 
 // Complete Exercise 2 below...
-
+// ? the <nameOfTheArray>.push(element) will add to the end of the array
 foods.push("pizza", "cheeseburger");
 
 console.log('Exercise 2 Result:\n',  foods);
@@ -26,7 +26,7 @@ Exercise 3:
 */
 
 // Complete Exercise 3 below...
-
+// ? the <nameOfTheArray>.unshift(element) will add at the begining of the array
 foods.unshift("taco");
 
 console.log('Exercise 3 Result:\n', foods);
@@ -37,7 +37,7 @@ Exercise 4:
 */
 
 // Complete Exercise 4 below...
-
+let favFood = foods[1]
 
 
 console.log('Exercise 4 Result:\n', favFood);
