@@ -216,6 +216,15 @@ Exercise 15:
 
 // Complete Exercise 15 below...
 
+let total = 0;
 
+numArrays.forEach((numArray) => {
+  let totalSum = 0;
+  for (let i = 0; i < numArray.length; i++) {
+    totalSum += numArray[i];
+  }
+  total += totalSum
+});
 
-console.log('Exercise 15 Result:\n', total);
+console.log('Exercise 15 Result:', total);
+
