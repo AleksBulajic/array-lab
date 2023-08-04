@@ -154,9 +154,22 @@ Exercise 12:
   	- Add to the fizz array if the number is evenly divisible by 3.
   	- Add to the buzz array if the number is evenly divisible by 5.
 */
+let  fizz = [];
+let buzz = [];
+let fizzbuzz = [];
 
 // Complete Exercise 12 below...
-
+nums.forEach((num) => {
+if(num % 3 === 0 && num % 5 === 0 ){
+  fizzbuzz.push(num)
+}else if(num % 5 === 0){
+  buzz.push(num)
+}else if(num % 3 === 0 ){
+  fizz.push(num)
+}else{
+  console.log("errorororororo")
+}
+})
 
 
 console.log('Exercise 12 Results:');
