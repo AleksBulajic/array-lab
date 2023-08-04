@@ -113,7 +113,7 @@ Exercise 10:
 // Complete Exercise 10 below...
 
 let hasSoup = function(foods) {
- if(foods.lenght === "soup"){
+ if(foods.includes("soup")){
   return true
  }else{
   return false
