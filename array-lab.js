@@ -112,9 +112,15 @@ Exercise 10:
 
 // Complete Exercise 10 below...
 
+let hasSoup = function(foods) {
+ if(foods.lenght === "soup"){
+  return true
+ }else{
+  return false
+ }
+}
 
-
-console.log('Exercise 10 Result:\n', hasSoup);
+console.log('Exercise 10 Result:\n', hasSoup(foods));
 
 /*
 Exercise 11:
