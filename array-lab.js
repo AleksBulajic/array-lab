@@ -133,6 +133,9 @@ const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 // Complete Exercise 11 below...
 let odds = [];
 
+//? the method below takes the array called nums and passes a single num as a argument
+//? then it goes thru each number and and then calculates the reminder of each number after they are divided by 2
+//? if the reminder is 0 its a even number if its anything other then 0 it will be a odd number 
 nums.forEach((num) => {
    if(num % 2 !== 0){
     odds.push(num);
