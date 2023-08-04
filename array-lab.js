@@ -26,6 +26,7 @@ Exercise 3:
 */
 
 // Complete Exercise 3 below...
+
 // ? the <nameOfTheArray>.unshift(element) will add at the begining of the array
 foods.unshift("taco");
 
@@ -37,6 +38,9 @@ Exercise 4:
 */
 
 // Complete Exercise 4 below...
+
+//? setting a new variable that hold the value of pizza
+//?  by <nameOfTheArray>[,elementNumber>] will add to the end of the array
 let favFood = foods[1]
 
 
@@ -49,6 +53,7 @@ Exercise 5:
 
 // Complete Exercise 5 below...
 
+foods.splice(2,0, 'tofu')
 
 
 console.log('Exercise 5 Result:\n', foods);
