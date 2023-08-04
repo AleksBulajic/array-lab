@@ -131,6 +131,14 @@ Exercise 11:
 const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
 // Complete Exercise 11 below...
+let odds = [];
+
+nums.forEach((num) => {
+   if(num % 2 !== 0){
+    odds.push(num);
+   }
+
+} )
 
 
 
